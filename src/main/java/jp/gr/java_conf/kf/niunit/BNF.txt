@@ -1,0 +1,173 @@
+ーーーーーーーーーーーーーーーーーーーーーー
+
+BNFを考える。
+
+日本語は逆ポーランド記法である。
+
+
+命題論理　のサブセット
+
+
+*** と同じである
+*** と同じである  かつ *** で始まる。
+
+
+
+結合子　：＝　かつ | または
+演算子 := 同じである |　同じでない |　同一である　|　同一でない　|　を含む　|　を含まない　|　で終わる |　で終わらない　で始まる　で始まらない。
+
+原子命題　:= <任意の値>  演算子 
+"みかん"　とおなじである。
+ 
+命題 := 原子命題　| 複合命題
+複合命題 :=  命題　結合子　命題　|　『 　命題　結合子　　命題　』　 [ ではない　 ]
+
+
+
+"みかん"　とおなじである。  または　"りんご" から始まる。
+
+
+これで行ける？
+
+
+
+
+*** と同じである  かつ  　『  *** で始まる。  または　***** と同じでない　 または　***** と同じでない　』
+
+
+２重かぎかっこ
+
+
+ストック
+
+節 := 論理式　|　 論理式　論理演算子　論理式　| 要素　論理演算子　節　|　『 節　論理演算子　要素　』　 |　　『 節　論理演算子　要素　』でない　
+|　『要素 　論理演算子　節　』　|　『要素 　論理演算子　節　』でない　
+
+
+
+ーーーーーーーーーーーーーーーーーーーーーーーー
+
+結合子　：＝　かつ | または
+演算子 := 同じである |　同じでない |　同一である　|　同一でない　|　を含む　|　を含まない　|　で終わる |　で終わらない　で始まる　で始まらない。
+原子命題　:= <任意の値>  演算子 
+命題 := 原子命題　| 複合命題
+複合命題 :=  命題　結合子　命題　|　『 　命題　結合子　　命題　』　 [ ではない　 ]
+
+
+
+"みかん"　とおなじである。
+
+
+X and Y and Z
+
+allOf(X, Y, Z)
+
+X and Y and X and Y and Z and Z and Z and Z and Z
+
+allOf(X, Y, Z, Y, Z, Y, Z, Y, Z, Y, Z, Y, Z, Y, Z)
+
+
+X and Y and X and Y and Z and Z and Z and Z and Z or A
+
+anyOf (allOf(X, Y, Z, Y, Z, Y, Z, Y, Z, Y, Z, Y, Z, Y, Z) , A)
+
+Z or A or A or A or A or A or A or A or A or A or A and B
+
+ anyOf(Z ,A ,A ,A ,A ,A ,A ,A ,A ,A, all(A , B))
+
+
+Z or A or A or A and B or A and B or A and B or A and B
+
+ anyOf(Z, A,  A,  A,  A, allOf(A, B), allOf(A, B), allOf(A, B))
+ 
+  
+ 
+ Z or A or A or A and B or (A and B or A) and B or A and B
+
+anyOf(Z, A, A,  allOf(A, B) , allOf(  anyOf(allOF(A, B), A), B )  , allOf(A, B))
+
+
+
+
+
+
+orからandが始まった。　今までのノードを
+andが終わってorが始まった。。
+
+
+andが出てきたら、暗黙に括弧があるものとみなす。
+
+
+
+
+X and (Y or Z)
+
+allOf(X , anyOf(Y, Z))
+
+
+X or Y or Z
+
+
+anyOf(X, Y, Z)
+
+
+
+X or Y and Z
+
+
+anyOf(X, all( Y, Z))
+
+X or X or X or X or X or Y and Z and Z and Z and Z and Z
+
+
+anyOf(X, X, X, X, X, X, all( Y, Z, Z, Z, Z, Z))
+
+
+
+
+
+A and X or Y and Z
+
+
+
+
+anyOf(allOf(A, X) ,  all( Y, Z))
+
+
+ーーーーーーーーーーーーーーーーーーーーーーーー
+
+
+
+
+lastValue
+
+
+
+lastMatcher
+
+
+
+と同じである()
+の時
+
+lastMatcherに、is(lastValue) をプッシュ
+lastValueはnullに
+
+かつ(型 対象)
+の時
+
+
+lastMatcher 
+matcherStackにかつをプッシュ
+lastValueに対象をプッシュ
+
+
+
+
+
+getHamcrestMatcher()
+
+
+
+
+
