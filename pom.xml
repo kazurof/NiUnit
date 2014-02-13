@@ -9,7 +9,7 @@
 
     <name>NiUnit</name>
     <description>日本語ユニットは日本語でテストメソッドを書くためのフレームワークです。略称：NiUnit</description>
-    <url>http://junit.org</url>
+    <url>https://github.com/kazurof/NiUnit</url>
     <inceptionYear>2014</inceptionYear>
     <organization>
         <name>NiUnit</name>
