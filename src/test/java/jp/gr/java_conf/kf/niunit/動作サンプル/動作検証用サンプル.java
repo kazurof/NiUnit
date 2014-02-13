@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 
 package jp.gr.java_conf.kf.niunit.動作サンプル;
 
@@ -14,10 +9,6 @@ import static org.hamcrest.core.IsInstanceOf.instanceOf;
 import static org.hamcrest.core.IsNot.not;
 import static org.junit.Assert.assertThat;
 
-/**
- *
- * @author fukuhara
- */
 public class 動作検証用サンプル {
         
     interface A {};

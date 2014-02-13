@@ -48,9 +48,6 @@ public class 総称マッチャーテスト {
 
 	@Test
 	public void いくつか入れてみて正しく入るかテスト5() {
-
-		// TODO かつ　または　でかつが優先されることを実装
-
 		総称マッチャー終了状態<Integer> テスト対象 = new 総称マッチャー<>(100).と同じである().または(23).と同じである().かつ(23).と同じである();
 		assertThat(100, テスト対象.HamcrestMatcher取得());
 		assertThat(23, テスト対象.HamcrestMatcher取得());
@@ -68,6 +65,7 @@ public class 総称マッチャーテスト {
 	public void クラスであるテスト() {
 		総称マッチャー終了状態<String> テスト対象 = 総称マッチャー.は(String.class).クラスのインスタンスである();
 		assertThat("aaa", テスト対象.HamcrestMatcher取得());
+        // TODO 型へのテストで失敗するテストが書けない。そもそも必要なのか再チェック
 //		assertThat(200, テスト対象.getHamcrestMatcher());
 	}
 }
