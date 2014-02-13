@@ -2,18 +2,18 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>jp.gr.java_conf.kf</groupId>
-    <artifactId>niunit</artifactId>
+    <groupId>jp.gr.java_conf.kf.niunit</groupId>
+    <artifactId>NiUnit</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>NiUnit</name>
-    <description>日本語テスティングフレームワークは日本語でテストメソッドを書くためのフレームワークです。略称：NiUnit</description>
+    <description>日本語ユニットは日本語でテストメソッドを書くためのフレームワークです。略称：NiUnit</description>
     <url>http://junit.org</url>
     <inceptionYear>2014</inceptionYear>
     <organization>
         <name>NiUnit</name>
-        <url>http://www.junit.org</url>
+        <url>https://github.com/kazurof/NiUnit</url>
     </organization>
     <licenses>
         <license>
@@ -36,7 +36,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>2.3.2</version>
+                <version>3.1</version>
                 <configuration>
                     <source>1.8</source>
                     <target>1.8</target>
@@ -98,7 +98,6 @@
                 <artifactId>maven-javadoc-plugin</artifactId>
                 <version>2.9.1</version>
                 <configuration>
-<!--                    <stylesheetfile>${basedir}/src/main/javadoc/stylesheet.css</stylesheetfile>-->
                     <show>protected</show>
                     <author>false</author>
                     <version>false</version>
@@ -106,7 +105,7 @@
                     <linksource>true</linksource>
                     <keywords>true</keywords>
                     <use>false</use>
-                    <windowtitle>NiUnit API</windowtitle>
+                    <windowtitle>日本語ユニット API</windowtitle>
                     <encoding>UTF-8</encoding>
                     <locale>ja</locale>
                     <javadocVersion>1.8</javadocVersion>
@@ -128,8 +127,6 @@
                     </dependencySourceIncludes>
                 </configuration>
             </plugin>
-          
-                                    
         </plugins>
     </build>
 
