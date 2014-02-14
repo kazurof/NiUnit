@@ -1,16 +1,7 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package jp.gr.java_conf.kf.niunit.マッチャー;
 
 import org.hamcrest.Matcher;
 
-/**
- *
- * @author fukuhara
- */
 public interface 総称マッチャー終了状態<型> {
 
     総称マッチャー終了状態<型> 亅();

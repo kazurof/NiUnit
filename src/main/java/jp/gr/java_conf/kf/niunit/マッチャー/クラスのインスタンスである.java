@@ -1,48 +1,37 @@
-/**
- * 
- */
 package jp.gr.java_conf.kf.niunit.マッチャー;
 
-/**
- * @author fukuhara
- * 
- */
+
 public class クラスのインスタンスである implements 特殊文字 {
-	public static final クラスのインスタンスである インスタンス = new クラスのインスタンスである();
 
-	private クラスのインスタンスである() {
-	};
+    public static final クラスのインスタンスである インスタンス = new クラスのインスタンスである();
 
-	@Override
-	public boolean 記号である() {
-		// TODO Auto-generated method stub
-		return false;
-	}
+    private クラスのインスタンスである() {
+    }
+
+    ;
 
 	@Override
-	public 記号 記号取得() {
-		// TODO Auto-generated method stub
-		return null;
-	}
+    public boolean 記号である() {
+        return false;
+    }
 
-	@Override
-	public boolean 文字列記号である() {
-		// TODO Auto-generated method stub
-		return false;
-	}
+    @Override
+    public 記号 記号取得() {
+        return null;
+    }
 
-	@Override
-	public 文字列記号 文字列記号取得() {
-		// TODO Auto-generated method stub
-		return null;
-	}
+    @Override
+    public boolean 文字列記号である() {
+        return false;
+    }
 
-	@Override
-	public boolean 結合子である() {
-		// TODO Auto-generated method stub
-		return false;
-	}
+    @Override
+    public 文字列記号 文字列記号取得() {
+        return null;
+    }
 
-
-
+    @Override
+    public boolean 結合子である() {
+        return false;
+    }
 }

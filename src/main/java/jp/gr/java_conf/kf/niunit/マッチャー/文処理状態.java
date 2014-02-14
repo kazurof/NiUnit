@@ -226,9 +226,7 @@ public enum 文処理状態 {
 	};
 
 	public abstract <型> 文処理状態 処理(LinkedList<プッシュダウンレコード<? super 型>> プッシュダウンテープ, 特殊文字 とくしゅもじ);
-
 	public abstract <型> 文処理状態 処理(LinkedList<プッシュダウンレコード<? super 型>> プッシュダウンテープ, 型 あたい);
 	public abstract <型> 文処理状態 処理(LinkedList<プッシュダウンレコード<? super 型>> プッシュダウンテープ, Class<? extends  型> くらす);
-
 	public abstract <型> Matcher<? super 型> 終了処理(LinkedList<プッシュダウンレコード<? super 型>> プッシュダウンテープ);
 }

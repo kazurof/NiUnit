@@ -1,6 +1,3 @@
-/**
- * 
- */
 package jp.gr.java_conf.kf.niunit.マッチャー;
 
 import org.hamcrest.Matcher;
@@ -32,8 +29,7 @@ public enum 記号 implements 特殊文字 {
 		<型> Matcher<型> マッチャー取得(型 あたい) {
 			return IsNot.not(と同一である.マッチャー取得(あたい));
 		}
-	},
-	;
+	};
 
 	abstract <型> Matcher<型> マッチャー取得(型 あたい);
 
