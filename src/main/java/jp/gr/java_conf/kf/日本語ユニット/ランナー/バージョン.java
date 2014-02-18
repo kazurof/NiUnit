@@ -6,7 +6,7 @@ public class バージョン {
 	}
 
 	public static String バージョン番号() {
-		return "1.0-SNAPSHOT";
+		return "1.0.0-SNAPSHOT";
 	}
 	
 	public static void main(String[] args) {
