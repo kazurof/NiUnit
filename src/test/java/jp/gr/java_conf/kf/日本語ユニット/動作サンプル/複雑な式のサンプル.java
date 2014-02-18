@@ -1,10 +1,10 @@
-package jp.gr.java_conf.kf.niunit.動作サンプル;
+package jp.gr.java_conf.kf.日本語ユニット.動作サンプル;
 
-import jp.gr.java_conf.kf.niunit.テスト;
-import static jp.gr.java_conf.kf.niunit.マッチャー.文字列マッチャー.は;
-import jp.gr.java_conf.kf.niunit.ランナー.日本語テストランナー;
-import jp.gr.java_conf.kf.niunit.ランナーズ.日本語ユニットコア;
-import static jp.gr.java_conf.kf.niunit.表明クラス.文字列;
+import jp.gr.java_conf.kf.日本語ユニット.テスト;
+import static jp.gr.java_conf.kf.日本語ユニット.マッチャー.文字列マッチャー.は;
+import jp.gr.java_conf.kf.日本語ユニット.ランナー.日本語テストランナー;
+import jp.gr.java_conf.kf.日本語ユニット.ランナーズ.日本語ユニットコア;
+import static jp.gr.java_conf.kf.日本語ユニット.表明クラス.文字列;
 import org.junit.runner.RunWith;
 
 @RunWith(日本語テストランナー.class)

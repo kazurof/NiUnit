@@ -1,4 +1,4 @@
-package jp.gr.java_conf.kf.niunit.マッチャー;
+package jp.gr.java_conf.kf.日本語ユニット.マッチャー;
 
 public enum 括弧 implements 特殊文字 {
 	/** 括弧開く。ギリシャ文字ガンマ */

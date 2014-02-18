@@ -1,4 +1,4 @@
-package jp.gr.java_conf.kf.niunit.マッチャー;
+package jp.gr.java_conf.kf.日本語ユニット.マッチャー;
 
 import static org.junit.Assert.assertThat;
 import org.junit.Test;

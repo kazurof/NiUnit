@@ -1,13 +1,13 @@
-package jp.gr.java_conf.kf.niunit.ランナー;
+package jp.gr.java_conf.kf.日本語ユニット.ランナー;
 
 import java.util.List;
 
-import jp.gr.java_conf.kf.niunit.クラス事前処理;
-import jp.gr.java_conf.kf.niunit.クラス事後処理;
-import jp.gr.java_conf.kf.niunit.テスト;
-import jp.gr.java_conf.kf.niunit.テスト.なし;
-import jp.gr.java_conf.kf.niunit.事前処理;
-import jp.gr.java_conf.kf.niunit.事後処理;
+import jp.gr.java_conf.kf.日本語ユニット.クラス事前処理;
+import jp.gr.java_conf.kf.日本語ユニット.クラス事後処理;
+import jp.gr.java_conf.kf.日本語ユニット.テスト;
+import jp.gr.java_conf.kf.日本語ユニット.テスト.なし;
+import jp.gr.java_conf.kf.日本語ユニット.事前処理;
+import jp.gr.java_conf.kf.日本語ユニット.事後処理;
 
 import org.junit.internal.runners.statements.ExpectException;
 import org.junit.internal.runners.statements.FailOnTimeout;

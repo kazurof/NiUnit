@@ -1,6 +1,6 @@
-package jp.gr.java_conf.kf.niunit.ランナーズ;
+package jp.gr.java_conf.kf.日本語ユニット.ランナーズ;
 
-import jp.gr.java_conf.kf.niunit.ランナー.バージョン;
+import jp.gr.java_conf.kf.日本語ユニット.ランナー.バージョン;
 
 import org.junit.runner.JUnitCore;
 

@@ -1,7 +1,7 @@
-package jp.gr.java_conf.kf.niunit;
+package jp.gr.java_conf.kf.日本語ユニット;
 
-import jp.gr.java_conf.kf.niunit.マッチャー.文字列マッチャー終了状態;
-import jp.gr.java_conf.kf.niunit.マッチャー.総称マッチャー終了状態;
+import jp.gr.java_conf.kf.日本語ユニット.マッチャー.文字列マッチャー終了状態;
+import jp.gr.java_conf.kf.日本語ユニット.マッチャー.総称マッチャー終了状態;
 import org.hamcrest.Matcher;
 import org.hamcrest.MatcherAssert;
 

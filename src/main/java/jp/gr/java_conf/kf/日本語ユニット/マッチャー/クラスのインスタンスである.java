@@ -1,4 +1,4 @@
-package jp.gr.java_conf.kf.niunit.マッチャー;
+package jp.gr.java_conf.kf.日本語ユニット.マッチャー;
 
 
 public class クラスのインスタンスである implements 特殊文字 {

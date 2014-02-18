@@ -1,10 +1,6 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 
-package jp.gr.java_conf.kf.niunit.ランナーズ;
+
+package jp.gr.java_conf.kf.日本語ユニット.ランナーズ;
 
 import java.lang.annotation.Annotation;
 import java.lang.annotation.ElementType;
@@ -17,7 +13,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
-import jp.gr.java_conf.kf.niunit.ランナー.日本語テストランナー;
+import jp.gr.java_conf.kf.日本語ユニット.ランナー.日本語テストランナー;
 import org.junit.runner.Runner;
 import org.junit.runner.notification.RunNotifier;
 import org.junit.runners.model.FrameworkField;

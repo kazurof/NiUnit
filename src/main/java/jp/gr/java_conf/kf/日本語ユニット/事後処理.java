@@ -1,4 +1,4 @@
-package jp.gr.java_conf.kf.niunit;
+package jp.gr.java_conf.kf.日本語ユニット;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

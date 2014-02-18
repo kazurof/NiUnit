@@ -1,4 +1,4 @@
-package jp.gr.java_conf.kf.niunit.マッチャー;
+package jp.gr.java_conf.kf.日本語ユニット.マッチャー;
 
 
 public class 文字列マッチャー extends 総称マッチャー<String> implements 文字列マッチャー値受付状態 , 文字列マッチャー終了状態 {

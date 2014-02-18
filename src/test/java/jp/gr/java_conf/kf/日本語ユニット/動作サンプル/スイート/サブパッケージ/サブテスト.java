@@ -1,7 +1,7 @@
-package jp.gr.java_conf.kf.niunit.動作サンプル.スイート.サブパッケージ;
+package jp.gr.java_conf.kf.日本語ユニット.動作サンプル.スイート.サブパッケージ;
 
-import jp.gr.java_conf.kf.niunit.テスト;
-import jp.gr.java_conf.kf.niunit.ランナー.日本語テストランナー;
+import jp.gr.java_conf.kf.日本語ユニット.テスト;
+import jp.gr.java_conf.kf.日本語ユニット.ランナー.日本語テストランナー;
 
 import org.junit.runner.RunWith;
 

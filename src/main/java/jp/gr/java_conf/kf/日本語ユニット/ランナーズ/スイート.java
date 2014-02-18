@@ -1,7 +1,7 @@
 /**
  * 
  */
-package jp.gr.java_conf.kf.niunit.ランナーズ;
+package jp.gr.java_conf.kf.日本語ユニット.ランナーズ;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Inherited;

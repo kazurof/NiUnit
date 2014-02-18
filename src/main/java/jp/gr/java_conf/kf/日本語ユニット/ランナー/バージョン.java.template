@@ -1,4 +1,4 @@
-package jp.gr.java_conf.kf.niunit.ランナー;
+package jp.gr.java_conf.kf.日本語ユニット.ランナー;
 
 public class バージョン {
 	private バージョン() {

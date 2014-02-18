@@ -1,13 +1,13 @@
-package jp.gr.java_conf.kf.niunit.動作サンプル;
+package jp.gr.java_conf.kf.日本語ユニット.動作サンプル;
 
 import java.util.Arrays;
-import jp.gr.java_conf.kf.niunit.テスト;
-import static jp.gr.java_conf.kf.niunit.マッチャー.総称マッチャー.は;
-import jp.gr.java_conf.kf.niunit.ランナーズ.パラメタライズドテスト;
-import jp.gr.java_conf.kf.niunit.ランナーズ.パラメタライズドテスト.テストデータ;
-import jp.gr.java_conf.kf.niunit.ランナーズ.パラメタライズドテスト.テストデータ保持;
-import jp.gr.java_conf.kf.niunit.ランナーズ.日本語ユニットコア;
-import static jp.gr.java_conf.kf.niunit.表明クラス.値;
+import jp.gr.java_conf.kf.日本語ユニット.テスト;
+import static jp.gr.java_conf.kf.日本語ユニット.マッチャー.総称マッチャー.は;
+import jp.gr.java_conf.kf.日本語ユニット.ランナーズ.パラメタライズドテスト;
+import jp.gr.java_conf.kf.日本語ユニット.ランナーズ.パラメタライズドテスト.テストデータ;
+import jp.gr.java_conf.kf.日本語ユニット.ランナーズ.パラメタライズドテスト.テストデータ保持;
+import jp.gr.java_conf.kf.日本語ユニット.ランナーズ.日本語ユニットコア;
+import static jp.gr.java_conf.kf.日本語ユニット.表明クラス.値;
 import org.junit.runner.RunWith;
 
 @RunWith(パラメタライズドテスト.class)

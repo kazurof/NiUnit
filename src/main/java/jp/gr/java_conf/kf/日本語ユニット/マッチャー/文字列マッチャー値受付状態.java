@@ -1,4 +1,4 @@
-package jp.gr.java_conf.kf.niunit.マッチャー;
+package jp.gr.java_conf.kf.日本語ユニット.マッチャー;
 
 public interface 文字列マッチャー値受付状態 extends 総称マッチャー値受付状態<String> {
 
