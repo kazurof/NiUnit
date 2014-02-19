@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/DECORATION/1.3.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/DECORATION/1.3.0 http://maven.apache.org/xsd/decoration-1.3.0.xsd"
+    name="日本語ユニット">
+
+  <body>
+    <links>
+      <item name="kazurof work" href="http://www7b.biglobe.ne.jp/~archer/" />
+    </links>
+    <menu name="コンテンツ">
+      <item name="トップページ" href="index.html"/>
+      <item name="APIリファレンス" href="apidocs/index.html"/>
+    </menu>
+
+    <menu ref="reports"/>
+  </body>
+</project>
