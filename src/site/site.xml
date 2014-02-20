@@ -11,9 +11,7 @@
     </links>
     <menu name="コンテンツ">
       <item name="トップページ" href="index.html"/>
-      <item name="APIリファレンス" href="apidocs/index.html"/>
     </menu>
-
     <menu ref="reports"/>
   </body>
 </project>
