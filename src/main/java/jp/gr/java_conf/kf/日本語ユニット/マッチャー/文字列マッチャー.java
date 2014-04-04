@@ -126,7 +126,11 @@ public class 文字列マッチャー extends 総称マッチャー<String> impl
 		return this;
 	}
 
-
+	@Override
+	public 文字列マッチャー値受付状態 またはΓ(String あたい) {
+		super.またはΓ(あたい);
+		return this;
+	}
 
 
 }
